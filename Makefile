@@ -1,7 +1,7 @@
 #Makefile
 
-add-nbo.o: add-nbo.cpp
-	g++ -o add-nbo.cpp add-nbo.o
+add-nbo.o: 
+	g++ -o add-nbo.o add-nbo.cpp
 
 clean:
 	rm -f add-nbo.o
